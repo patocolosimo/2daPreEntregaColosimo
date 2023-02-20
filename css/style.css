@@ -1,0 +1,340 @@
+/*Reset*/
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: Sofia Sans;
+    box-sizing: content-box;
+}
+
+
+/*Header*/
+.titulo {
+    display: inline-block;
+    padding: 10px;
+    text-decoration-color: black;
+    text-shadow: 1px 1px 5px;
+}
+.barra-navegacion{
+    padding: 10px;
+    font-size: medium;
+}
+
+.barra-navegacion a{
+    text-decoration: none;
+    margin: 0px 10px 5px 10px;
+    color: black;
+    font-weight: bolder;
+}
+
+.barra-navegacion a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(94, 94, 94);
+    opacity: 80%;
+    margin: 0px;
+}
+/*Body*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    background-image: radial-gradient(darkgray, black);
+    background-size: contain; 
+}
+main{
+    margin-top: 15px;
+    font-size: 15px;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+.intro{
+    text-align: center;
+    color: aliceblue;
+}
+a:link{
+    text-decoration: none;
+}
+.gridtarjeta{
+    display: grid;
+    grid-template-columns: 3;
+}
+.tarjeta {
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px gray;
+    transition: transform 0.5s;
+}
+      
+.tarjeta:hover {
+    transform: scale(1);
+}
+#tarjetaTorneos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-height: 220px;
+    background-color: #000;
+    opacity: 90%;
+    color:  white;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2em;
+}
+
+.torneos-h3{
+    margin: 0;
+}
+
+.jugador23{
+    float: right;
+    margin-bottom: 1em;
+    border-radius: 10px;
+    width: 20%;
+    height: 25%;
+    max-width: 330px;
+    min-width: 200px;
+    min-height: 220px;
+    max-height: 220px;
+}
+
+ul{
+    list-style-type: none;
+}
+button{
+    background-color: rgb(99, 202, 233);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0px 35px;    
+    
+}
+/*Footer*/
+footer{
+        margin-top: auto;
+        background-color: rgb(200, 182, 248);
+        width: 100%;
+        height: 6em;
+       
+}
+.footer-p{
+       font-size: 1.25em;
+       justify-content: left;
+       color: black
+}
+.items-footer{
+       font-size: 20px;
+       color: rgb(0, 0, 0);
+}
+.items-footer a{
+       padding: 0px 20px;
+       color: rgb(5, 5, 5);
+       transition: all .5s;
+}
+.items-footer a:hover{
+       font-size: 30px;
+       color: rgb(5, 5, 5);
+}
+.items-footer a:active{
+        font-size: 30px;
+        color: #000;
+}
+.Copyright{
+       font-size: .9em;
+       align-self: end;
+}
+/*Torneos*/
+#parrafoTorneos{
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    background-color: rgb(179, 189, 248);
+    opacity: 50%;
+    padding: 1%;
+}
+#premiosTorneo{
+    border: 5px;
+    border-radius: 8px;
+    color: #000;
+    background-color: rgb(243, 117, 237);
+    padding: 1%;
+    opacity: 50%;
+    margin-top: 10px;
+}
+.titulo-torneos{
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px;
+}
+/*Precios*/
+.tabla-f5{
+border: 2px solid black;
+color: #000;
+background-color: gray;
+opacity: 90%;
+border-radius: 3px;
+padding: 1%;
+font-weight: bolder;
+
+}
+.tabla-f8{
+    border: 2px solid black;
+    color: #000;
+    background-color: gray;
+    opacity: 90%;
+    border-radius: 3px;
+    padding: 1%;
+    font-weight: bolder;
+    }
+.titulo-canchas-f5{
+        border: #000 2px solid;
+        border-radius: 8px;
+        background-color: rgb(27, 151, 15);
+        font-size: x-large;
+        font-weight: bolder;
+        position: absolute;
+        bottom: 57%;
+        left: 5%;
+}
+.titulo-canchas-f8{
+        border: #000 2px solid;
+        border-radius: 8px;
+        font-size: x-large;
+        font-weight: bolder;
+        background-color: rgb(65, 65, 65);
+}
+
+.canchas-f5{ 
+    width: 70%;
+    height: 40%;
+    margin: 35px;
+    box-sizing: border-box;
+}
+
+.canchas-f8{
+    width: 70%;
+    height: 40%;
+    margin: 35px;
+    box-sizing: border-box;
+    
+}
+
+.horizontal-precios{
+    background-color: rgb(64, 65, 64);
+}
+.columnas-precios{
+    background-color: rgb(11, 139, 7);
+}
+/*Imagenes*/
+.imagenes{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: #000 2px;
+    border-radius: 12px; 
+  
+}
+/*Formularios*/
+.comunidad-fieldfut{
+    border: black 2px solid;
+    background-color: gray;
+    border-radius: 8px;
+    display: flex; 
+    flex-direction: column;
+    
+
+}
+.formulario-reserva{
+    border: black 2px solid;
+    background-color: gray;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    
+}
+
+
+#Name{
+    margin: 0px 50px;
+    width: 200px;
+    height: 30px;
+    background-color: #bbb;
+    border: #111 solid 2px;
+}
+
+#password{
+    margin: 0px 50px;
+    width: 200px;
+    height: 30px;
+    background-color: #bbb;
+    border: #111 solid 2px;
+}
+
+#number{
+    margin: 0px 50px;
+    width: 200px;
+    height: 30px;
+    background-color: #bbb;
+    border: #111 solid 2px;
+}
+
+#Comentarios{
+    margin: 25px 15px;
+    width: 90%;
+    height: 40%;
+    max-width: 90%;
+    min-width: 90%;
+    max-height: 40%;
+    min-height: 40%;
+    background-color: #bbb;
+    border-radius: 10px;
+    border: #111 solid 2px;
+}
+
+.submit{
+    background-color: greenyellow;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0px 50px;
+    width: 200px;
+    height: 50px;
+}
+
+.cancha{
+    margin: 25px 15px;
+    font-size:larger ;
+}
+
+.form-input{
+    margin: 20px 0px;
+    width: 200px;
+    height: 30px;
+    background-color: #bbb;
+    border: #111 solid 2px;
+}
+
+select{
+    height: 28px;
+    border: #111 solid 2px;
+    background-color: #bbb;
+    margin: 20px 0px;
+}
+
+.submit-form-reserva{
+    background-color: greenyellow;
+    color: black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 10px 40px;
+    width: 200px;
+    height: 50px;
+}
