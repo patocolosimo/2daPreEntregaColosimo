@@ -9,9 +9,8 @@
 
 /*Header*/
 .titulo {
-    display: inline-block;
+    color: #a4f7b2;
     padding: 10px;
-    text-decoration-color: black;
     text-shadow: 1px 1px 5px;
 }
 .barra-navegacion{
@@ -22,7 +21,8 @@
 .barra-navegacion a{
     text-decoration: none;
     margin: 0px 10px 5px 10px;
-    color: black;
+    text-shadow: 1px .5px 1px;
+    color: #88c492;
     font-weight: bolder;
 }
 
@@ -32,7 +32,7 @@
 }
 
 header{
-    background-color: rgb(94, 94, 94);
+    background-color: #01420f;
     opacity: 80%;
     margin: 0px;
 }
@@ -41,7 +41,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh; 
-    background-image: radial-gradient(black, darkblue);
+    background-image: radial-gradient(black, rgb(52, 131, 15));
     background-size: contain; 
 }
 main{
@@ -52,7 +52,7 @@ main{
 }
 .intro{
     text-align: center;
-    color: aliceblue;
+    color: #f0f8ff;
 }
 a:link{
     text-decoration: none;
@@ -115,38 +115,46 @@ button{
 }
 /*Footer*/
 footer{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
         margin-top: auto;
-        background-color: rgb(200, 182, 248);
+        background-color: #01420f;
         width: 100%;
         height: 6em;
        
 }
 .footer-p{
-       font-size: 1.25em;
-       justify-content: left;
-       color: black
+       font-size: 2.3em;
+       align-self: center;
+       color: black;
+       margin-top: .5em;
 }
-.items-footer{
-       font-size: 20px;
-       color: rgb(0, 0, 0);
-}
-.items-footer a{
+
+.footer-a{
        padding: 0px 20px;
        color: rgb(5, 5, 5);
+       align-self: center;
+       font-size: 1.5em;
        transition: all .5s;
 }
-.items-footer a:hover{
-       font-size: 30px;
-       color: rgb(5, 5, 5);
+
+.footer-a:hover{
+    color: #fff;
+    font-size: 1.8em;
 }
-.items-footer a:active{
-        font-size: 30px;
-        color: #000;
-}
+
+
 .Copyright{
        font-size: .9em;
-       align-self: end;
+       font-weight: bolder;
+       color: #5e9469;
+       margin: 0;
+       align-self: flex-end;
 }
+
+
 /*Torneos*/
 #parrafoTorneos{
     border: 2px solid black;
@@ -236,8 +244,15 @@ font-weight: bolder;
     flex-wrap: wrap;
     border: #000 2px;
     border-radius: 12px; 
-  
 }
+
+.texto-de-fotos{
+  color: grey;  
+}
+.h2-fotos{
+    color: grey;
+}
+  
 /*Formularios*/
 .comunidad-fieldfut{
     border: black 2px solid;
