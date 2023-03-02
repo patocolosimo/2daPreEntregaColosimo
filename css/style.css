@@ -1,48 +1,59 @@
-/*Reset*/
 *{
     margin: 0%;
     padding: 0%;
-    font-family: Sofia Sans;
-    box-sizing: content-box;
+    font-family: Sofia Sans 
 }
-
-
-/*Header*/
 .titulo {
-    color: #a4f7b2;
-    padding: 10px;
+    display: inline-block;
+    text-decoration-color: black;
+    margin-left: 15px;
+    margin-top: 15px;
     text-shadow: 1px 1px 5px;
 }
 .barra-navegacion{
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    display: inline-block;
     font-size: medium;
 }
 
 .barra-navegacion a{
     text-decoration: none;
     margin: 0px 10px 5px 10px;
-    text-shadow: 1px .5px 1px;
-    color: #88c492;
+    color: black;
     font-weight: bolder;
 }
+
 
 .barra-navegacion a:hover{
     color: white;
     text-decoration: none;
 }
 
+.barra-navegacion ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .barra-navegacion ul li {
+    margin-right: 20px;
+}
+
+
 header{
-    background-color: #01420f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkgreen;
     opacity: 80%;
     margin: 0px;
 }
-/*Body*/
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh; 
-    background-image: radial-gradient(black, rgb(52, 131, 15));
+    background-image:url(https://media.istockphoto.com/id/163256736/es/foto/prado-rayas.jpg?s=612x612&w=0&k=20&c=b1BoWXO0K_IxAe-IfDOdxJTmcynvfPtwTUP3kTW3iag=);
     background-size: contain; 
+    position: relative;
+    padding-bottom: 60px;
 }
 main{
     margin-top: 15px;
@@ -52,115 +63,91 @@ main{
 }
 .intro{
     text-align: center;
-    color: #f0f8ff;
+}
+.canchas-futbol{
+    background-color: rgb(115, 212, 115);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    height:295px;
+    display: inline-block;
+    position: relative;
+     right: 40%;
+     top: 50px;
+}
+.canchas-futbol img{
+    width:100%;
+    border-radius: 10px;
 }
 a:link{
     text-decoration: none;
 }
-.gridtarjeta{
-    display: grid;
-    grid-template-columns: 3;
-}
-.tarjeta {
-    border: 1px solid rgb(0, 0, 0);
-    box-shadow: 5px 5px 5px gray;
-    transition: transform 0.5s;
-}
-      
-.tarjeta:hover {
-    transform: scale(1);
+#tarjetasCanchas{
+    position: absolute;
+    right: 325px;
+    bottom: 145px;
+    padding: 50px;
 }
 #tarjetaTorneos{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    max-height: 220px;
     background-color: #000;
     opacity: 90%;
     color:  white;
     border: 2px solid black;
     border-radius: 10px;
     padding: 10px;
-    margin: 2em;
+    display: inline-block;
+    position: relative;
+     left: 60%;
+     top: 50px;
 }
-
-.torneos-h3{
-    margin: 0;
-}
-
 .jugador23{
-    float: right;
-    margin-bottom: 1em;
     border-radius: 10px;
-    width: 20%;
-    height: 25%;
-    max-width: 330px;
-    min-width: 200px;
-    min-height: 220px;
-    max-height: 220px;
+    position: relative;
+    left: 60px;
 }
 
 ul{
     list-style-type: none;
 }
 button{
-    background-color: rgb(99, 202, 233);
+    background-color: greenyellow;
     color: black;
     padding: 5px;
     border-radius: 5px;
     font-size: 20px;
     font-weight: bolder;
     margin: 0px 35px;    
-    
+    position: absolute;
+    top: 75%;
 }
-/*Footer*/
 footer{
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-around;
-        margin-top: auto;
-        background-color: #01420f;
-        width: 100%;
-        height: 6em;
-       
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
 }
-.footer-p{
-       font-size: 2.3em;
-       align-self: center;
-       color: black;
-       margin-top: .5em;
-}
-
-.footer-a{
-       padding: 0px 20px;
-       color: rgb(5, 5, 5);
-       align-self: center;
-       font-size: 1.5em;
-       transition: all .5s;
-}
-
-.footer-a:hover{
-    color: #fff;
-    font-size: 1.8em;
-}
-
-
+.enlaces-footer {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .enlaces-footer li {
+    display: inline-block;
+    margin-right: 20px;
+  }
 .Copyright{
-       font-size: .9em;
-       font-weight: bolder;
-       color: #5e9469;
-       margin: 0;
-       align-self: flex-end;
+       position: absolute;
+       right: 10%;
+       bottom: 10px;
+       font-size: 12px
 }
-
-
-/*Torneos*/
 #parrafoTorneos{
     border: 2px solid black;
     border-radius: 10px;
-    color: black;
-    background-color: rgb(179, 189, 248);
+    color: #eee;
+    background-color: black;
     opacity: 50%;
     padding: 1%;
 }
@@ -168,7 +155,7 @@ footer{
     border: 5px;
     border-radius: 8px;
     color: #000;
-    background-color: rgb(243, 117, 237);
+    background-color: yellow;
     padding: 1%;
     opacity: 50%;
     margin-top: 10px;
@@ -178,99 +165,83 @@ footer{
     font-weight: bold;
     text-shadow: 1px 1px 2px;
 }
-/*Precios*/
 .tabla-f5{
 border: 2px solid black;
 color: #000;
-background-color: gray;
+background-color: rgb(26, 95, 6);
 opacity: 90%;
 border-radius: 3px;
-padding: 1%;
 font-weight: bolder;
-
+text-align: center;
 }
 .tabla-f8{
     border: 2px solid black;
     color: #000;
-    background-color: gray;
+    background-color: rgb(26, 95, 6);
     opacity: 90%;
     border-radius: 3px;
-    padding: 1%;
     font-weight: bolder;
+    text-align: center;
     }
 .titulo-canchas-f5{
-        border: #000 2px solid;
         border-radius: 8px;
-        background-color: rgb(27, 151, 15);
         font-size: x-large;
         font-weight: bolder;
-        position: absolute;
-        bottom: 57%;
-        left: 5%;
 }
 .titulo-canchas-f8{
-        border: #000 2px solid;
         border-radius: 8px;
         font-size: x-large;
         font-weight: bolder;
-        background-color: rgb(65, 65, 65);
 }
 
 .canchas-f5{ 
-    width: 70%;
-    height: 40%;
-    margin: 35px;
     box-sizing: border-box;
+    margin: 15px;
 }
 
 .canchas-f8{
-    width: 70%;
-    height: 40%;
-    margin: 35px;
     box-sizing: border-box;
+    margin: 15px;
     
 }
 
 .horizontal-precios{
-    background-color: rgb(64, 65, 64);
+    background-color: rgb(4, 119, 0);
 }
 .columnas-precios{
     background-color: rgb(11, 139, 7);
 }
-/*Imagenes*/
-.imagenes{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    border: #000 2px;
+.imagenes
+{   border: #000 2px;
     border-radius: 12px; 
+    position: relative; 
+    left: 300px;   
 }
-
-.texto-de-fotos{
-  color: grey;  
-}
-.h2-fotos{
-    color: grey;
-}
-  
-/*Formularios*/
 .comunidad-fieldfut{
-    border: black 2px solid;
-    background-color: gray;
+    border: rgb(3, 88, 3) 2px solid;
+    background-color: #3d7208;
     border-radius: 8px;
-    display: flex; 
-    flex-direction: column;
-    
-
+    display: inline-block;
+    padding: 15px;
+    width: 300px;
+    height: 450px;
 }
 .formulario-reserva{
-    border: black 2px solid;
-    background-color: gray;
+    border: rgb(3, 88, 3) 2px solid;
+    background-color: #3d7208;
     border-radius: 8px;
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
     padding: 15px;
-    
+    position: absolute;
+    right: 225px;
+    bottom: 50px;
+    width: 300px;
+    height: 450px;
+}
+.intro-forms{
+    position: absolute;
+    right: 150px;
+    bottom: 550px;
 }
 
 
@@ -353,3 +324,22 @@ select{
     width: 200px;
     height: 50px;
 }
+
+@media screen and (min-width: 768px) {
+    header {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    .barra-navegacion {
+      margin-top: 0;
+    }
+    .enlaces-footer {
+        display: flex;
+        justify-content: space-between;
+      }
+    
+      .enlaces-footer li {
+        margin-right: 0;
+      }
+  }

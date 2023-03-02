@@ -7,97 +7,227 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300&display=swap" rel="stylesheet">
-    <link src="https://kit.fontawesome.com/73f026269c.js" crossorigin="anonymous"></link>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title> Reservá - FieldFut</title>
 </head>
 <body>
     <header>
-        <h1 class="titulo"> FieldFut </h1> 
+      <h1 class="titulo"> FieldFut </h1> <i class="fa-solid fa-futbol"></i>
         <nav class="barra-navegacion"> 
            <ul>
-                <il><a href="./index.html"> Inicio</a></il>
-               <il><a target="_blank" href="./torneos.html">  Torneos</a></il>
-               <il><a target="_blank" href="./multimedia.html">  Galería</a></il>
-               <il><a target="_blank" href="./precios.html">  Precios</a></il>
-               <il><a target="_blank" href="./formulario.html">  Ser Parte</a></il>
+              <li><a href="../index.html" class="fa-solid fa-futbol"> Inicio </a></li>
+              <li><a href="./multimedia.html" class="fa-solid fa-camera">  Galería</a></li>
+              <li><a href="./formulario.html" class="fa-sharp fa-solid fa-users">  Ser Parte</a></li>
            </ul>
         </nav>
     </header>
     <main>
-            <section>
-                <h1> Reservá tu cancha</h1>
-                    <div class="formulario-reserva">
-                        <div class="cancha">
-                            <p>Detallar cancha a alquilar:</p>
-                            <input type="text" class="form-input" placeholder="Belgrano/Núñez/VteLópez">
-                            <select name="Cancha?" id="">
-                            <option value="F5">F5</option>
-                            <option value="F8">F8</option>
-                            </select> 
-                        </div>
-                    
-                    
-                        <p>Horario a alquilar:</p>
+        <div class="row g-5">
+            <div class="col-md-5 col-lg-4 order-md-last">
+                <h1 class="titulo-torneos"> Torneo Fútbol 5 </h1>
 
-                        <select name="" id="select">
-                        <option value="AM">AM</option>
-                        <option value="PM">PM</option>
-                        </select>
-                        <select name="" id="select-time">
-                        <option value="time">01</option>
-                        <option value="time">02</option>
-                        <option value="time">03</option>
-                        <option value="time">04</option>
-                        <option value="time">05</option>
-                        <option value="time">06</option>
-                        <option value="time">07</option>
-                        <option value="time">08</option>
-                        <option value="time">09</option>
-                        <option value="time">10</option>
-                        <option value="time">11</option>
-                        <option value="time">12</option>
-                        </select> 
-                        <P> A nombre de: </P>
-
-                        <input type="text" class="form-input" placeholder="Tu nombre y apellido"> 
-                        <p> Contactar al MAIL:</p>
-
-                        <input type="text" class="form-input" placeholder="ejemplo@gmail.com">
-                        <input type="submit" class="submit-form-reserva" value="enviar">
+                <section id="parrafoTorneos">
+                
+                    <p class="subtitulo"> Sumá tu equipo a una nueva edición del certamen para competir por diversos premios. </p>
+                
+                        <h4> Esquema de Juego: </h4>
+                
+                        <p> Se armarán dos (2) Zonas de cinco (5) equipos cada una. El formato será todos contra todos. Los dos mejores de cada zona jugarán semifinales.
+                         Quienes ganen en las semifinales disputarán la final, mientras que los dos perdedores jugarán por el 3er puesto. 
+                         No se suspende por lluvia. <br>
+                        </p>
+                
+                        <h4> Resumen del Reglamento: </h4>
+                        
+                         
+                        
+                        <p> El torneo se dividirá en dos etapas; <br> <strong> Fase 1  </strong> - Zona de grupos: dos (2) zonas con cinco (5) equipos en cada una, con partidos de todos contra todos.
+                            Clasifican a la siguiente etapa los mejores equipos de cada zona. </p>
+                           <p> <strong> Fase 2 </strong> - Sistema de eliminación directa: partidos de semifinal y final. </p>
+                        
+                                <ul> 
+                                        <li> Los equipos jugarán un mínimo de cuatro (4) partidos.
+                                            Incluye pecheras, referí y premios para los dos primeros puestos, y goleador. </li> <br> 
+                                        <li> Se establece una lista de Buena Fe de siete (7) jugadores, obligatoriamente.
+                                            Se requiere Nombre, Apellido, DNI y una firma.</li> <br>
+                                        <li> Ningún jugador podrá estar anotado en dos (2) 
+                                            o más equipos ni pasar de un equipo a otro durante el desarrollo del torneo.</li> <br>
+                                        <li> Se jugarán partidos de dos (2) tiempos de 25 minutos cada uno. Se emplearán tarjetas de sanción.</li> <br>
+                                        <li> Los penales se ejecutarán a pie firme, sin carrera.</li> <br>
+                                        <li> El valor de la Ficha de Inscripción es de $3000 (tres mil pesos) TOTAL, válido para todo el torneo.</li> <br>
+                                        <li> Los jugadores no podrán ir al suelo cuando este el balón en disputa, siendo esto sancionable con tarjeta amarilla.
+                                             Dentro del área, el arquero podrá ir al suelo; fuera del área, será considerado un jugador más.</li> <br>
+                                </ul> <br>
+                </section>
+                
+                <section id="premiosTorneo"> 
+                    <strong> PREMIOS: <br> 
+                    1er puesto: premio en efectivo del 20% de lo recaudado.   <br> 
+                    2do puesto: proximo torneo juega gratis.    <br>
+                    3ro puesto: 50% de descuento en el torneo siguiente. <br>
+                    </strong>
+                </section>  
+      
+            </div>
+            <div class="col-md-7 col-lg-8">
+              <h4 class="mb-3">Reservá tu lugar en la liga</h4>
+              <form class="needs-validation was-validated" novalidate="">
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <label for="firstName" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                    <div class="invalid-feedback">
+                      Valid first name is required.
                     </div>
+                  </div>
+      
+                  <div class="col-sm-6">
+                    <label for="lastName" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                    <div class="invalid-feedback">
+                      Valid last name is required.
+                    </div>
+                  </div>
+                  
+                  <div class="col-12">
+                    <label for="email" class="form-label">Telefono</label>
+                    <input type="email" class="form-control" id="email" placeholder="+54118888888">
+                    <div class="invalid-feedback">
+                      Please enter a valid phone.
+                    </div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="email" class="form-label">Email <span class="text-muted">(Optional)</span></label>
+                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                    <div class="invalid-feedback">
+                      Please enter a valid email address for shipping updates.
+                    </div>
+                  </div>
+      
+                  <div class="col-sm-6">
+                    <label for="cancha" class="form-label">Cancha</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                    <div class="invalid-feedback">
+                      Valid field is required.
+                    </div>
+                  </div>
+                        
+                  <div class="col-sm-6">
+                    <label for="Ubicacion" class="form-label">Ubicacion</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                    <div class="invalid-feedback">
+                      Valid ubication is required.
+                    </div>
+                  </div>
+          </div>
+    
+          <section>
+            <h1 class="titulo"> Precios </h1>
+            <p class="intro"> ¡Los mejores precios para las mejores canchas! 
+                Revisá en estas tablas nuestros costos semanales en Canchas de 5 y Canchas de 8 en pasto sintético. </p>
         </section>
         <section>
-            <div class="intro-forms">
-                <h2>Comunidad FieldFut</h2>
-                <P>¿Querés ser parte de nuestra comunidad futbolera? ¡Registrate y unite!</p>
+            <div class="canchas-f5">
+                <h2 class="titulo-canchas-f5"> Canchas de Fútbol 5 ➜</h2>
+                <table cellspacing="4" cellpadding="8" class="tabla-f5">
+                        <th> 
+                            <th class=" horizontal-precios"> Cancha Núñez</th>
+                            <th class=" horizontal-precios"> Cancha Belgrano</th>
+                            <th class=" horizontal-precios"> Cancha Vte. López</th>
+                        </th>
+                            <tr> 
+                                <td class="columnas-precios"> Lunes </td>
+                                <td> $8000 </td>
+                                <td> $8500 </td>
+                                <td> $6500 </td>
+                            </tr>
+                            <tr>
+                                <td class="columnas-precios"> Martes </td>
+                                <td> $9000 </td>
+                                <td> $8500 </td>
+                                <td> $7500 </td>
+                                
+                            </tr>
+                            <tr>
+                                <td class="columnas-precios"> Miércoles </td>
+                                <td> $9000 </td>
+                                <td> $8500 </td>
+                                <td> $7750 </td>
+                            </tr>
+                            <tr>
+                                <td class="columnas-precios"> Jueves </td>
+                                <td> $9500 </td>
+                                <td> $9000 </td>
+                                <td> $8000 </td>
+                            </tr>
+                            <tr>
+                                <td class="columnas-precios"> Viernes </td>
+                                <td> $11000 </td>
+                                <td> $9500 </td>
+                                <td> $8500 </td>
+                            </tr>
+    
+                </table>
             </div>
-        
-            <div class="comunidad-fieldfut">
-                <form enctype="multipart/form-data">
+            </section>
+                <div class="canchas-f8">
+                    <h2 class="titulo-canchas-f8"> Canchas de Fútbol 8 ➜ </h2>
+                         <table cellspacing="4" cellpadding="8" class="tabla-f8">
+                            <th>    
+                                <th class=" horizontal-precios"> Cancha Núñez</th>
+                                <th class=" horizontal-precios"> Cancha Belgrano</th>
+                                <th class=" horizontal-precios"> Cancha Vte. López</th>
+                            </th>
+                                <tr class="dias-precios"> 
+                                    <td class="columnas-precios"> Lunes </td>
+                                    <td> $18000 </td>
+                                    <td> $18500 </td>
+                                    <td> $16500 </td>
+                                </tr>
+                                <tr>
+                                    <td class="columnas-precios"> Martes </td>
+                                    <td> $19000 </td>
+                                    <td> $18500 </td>
+                                    <td> $17500 </td>
+                                        
+                                </tr>
+                                <tr>
+                                    <td class="columnas-precios"> Miércoles </td>
+                                    <td> $19000 </td>
+                                    <td> $18500 </td>
+                                    <td> $17750 </td>
+                                </tr>
+                                <tr>
+                                    <td class="columnas-precios"> Jueves </td>
+                                    <td> $19500 </td>
+                                    <td> $19000 </td>
+                                    <td> $18000 </td>
+                                </tr>
+                                <tr>
+                                    <td class="columnas-precios"> Viernes </td>
+                                    <td> $21000 </td>
+                                    <td> $19500 </td>
+                                    <td> $18500 </td>
+                                </tr>
+                        </table>
 
-                    <input type="text" id="name" placeholder=" Nombre/Apellido"> <br>
-                    
-                    <input type="password" id="password" placeholder=" Contraseña"> <br>
-                    
-                    <input type="number" id="number" placeholder=" Numero de telefono">
-                    <textarea name="comentarios" id="comentarios" cols="25" rows="5" placeholder="  Déjanos tu comentario!"></textarea> <br>
-                    
-                    <input type="submit" class="submit" value="enviar"> <br>
-                </form>
-        
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>¡Contactanos!</p>
-            <div class="items-footer">
-                <a href="instagram.com/" class="fa-brands fa-instagram" target="_blank"></a> 
-                <a href="facebook.com/" class="fa-brands fa-facebook-f" target="_blank"></a>
-                <a href="twitter.com/" class="fa-brands fa-twitter" target="_blank"></a>
-                <a href="pinterest.com/" class="fa-brands fa-pinterest" target="_blank"></a>
-            </div>
-        ss<p class="Copyright"> Copyright 2023 - FieldFut </p>
-    </footer> 
+             </div>
+             <button class="btn btn-primary" type="submit">Reservar un lugar</button>
+
+
+</main>
+<footer>
+    <p>¡Contactanos!</p>
+        <div class="items-footer">
+             <a href="instagram.com/" class="fa-brands fa-instagram" target="_blank"></a> 
+             <a href="facebook.com/" class="fa-brands fa-facebook-f" target="_blank"></a>
+             <a href="twitter.com/" class="fa-brands fa-twitter" target="_blank"></a>
+             <a href="pinterest.com/" class="fa-brands fa-pinterest" target="_blank"></a>
+        </div>
+</footer> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/73f026269c.js" crossorigin="anonymous"></script>
 </body>
 </html>
