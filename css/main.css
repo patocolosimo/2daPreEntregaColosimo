@@ -1,0 +1,453 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Sofia Sans;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(https://media.istockphoto.com/id/163256736/es/foto/prado-rayas.jpg?s=612x612&w=0&k=20&c=b1BoWXO0K_IxAe-IfDOdxJTmcynvfPtwTUP3kTW3iag=);
+  background-size: contain;
+  position: relative;
+  padding-bottom: 60px; }
+
+main {
+  margin-top: 15px;
+  font-size: 15px;
+  margin-left: 10px;
+  font-weight: bolder; }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #c8b6f8;
+  width: 100%;
+  height: 5em; }
+
+footer .footer-p {
+  font-size: 1.25em;
+  align-self: flex-start;
+  color: black; }
+
+footer .items-footer {
+  align-self: center;
+  font-size: 20px;
+  color: black; }
+
+footer .items-footer a {
+  padding: 0px 45px;
+  color: #050505; }
+
+footer .items-footer a:hover {
+  font-size: 30px;
+  color: #050505;
+  transition: 0.2s; }
+
+footer .items-footer a:active {
+  font-size: 30px;
+  color: #000; }
+
+.Copyright {
+  font-size: .9em;
+  align-self: end; }
+
+header .titulo {
+  display: inline-block;
+  text-decoration-color: black;
+  margin-left: 15px;
+  margin-top: 15px;
+  text-shadow: 1px 1px 5px; }
+
+header .barra-navegacion {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  display: inline-block;
+  font-size: medium; }
+
+header .barra-navegacion a {
+  text-decoration: none;
+  margin: 0px 10px 5px 10px;
+  color: black;
+  font-weight: bolder; }
+
+header .barra-navegacion a:hover {
+  color: white;
+  text-decoration: none; }
+
+header .barra-navegacion ul {
+  display: flex;
+  list-style: none; }
+
+header .barra-navegacion ul li {
+  margin-right: 20px; }
+
+header header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: darkgreen;
+  opacity: 80%;
+  margin: 0px; }
+
+#parrafoTorneos {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: #eee;
+  background-color: black;
+  opacity: 50%;
+  padding: 1%; }
+
+#premiosTorneo {
+  border: 5px;
+  border-radius: 8px;
+  color: #000;
+  background-color: yellow;
+  padding: 1%;
+  opacity: 50%;
+  margin-top: 10px; }
+
+.titulo-torneos {
+  font-size: 35px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px; }
+
+.tabla-f5 {
+  border: 2px solid black;
+  color: #000;
+  background-color: #1a5f06;
+  opacity: 90%;
+  border-radius: 3px;
+  font-weight: bolder;
+  text-align: center; }
+
+.tabla-f8 {
+  border: 2px solid black;
+  color: #000;
+  background-color: #1a5f06;
+  opacity: 90%;
+  border-radius: 3px;
+  font-weight: bolder;
+  text-align: center; }
+
+.titulo-canchas-f5 {
+  border-radius: 8px;
+  font-size: x-large;
+  font-weight: bolder; }
+
+.titulo-canchas-f8 {
+  border-radius: 8px;
+  font-size: x-large;
+  font-weight: bolder; }
+
+.canchas-f5 {
+  box-sizing: border-box;
+  margin: 15px; }
+
+.canchas-f8 {
+  box-sizing: border-box;
+  margin: 15px; }
+
+.horizontal-precios {
+  background-color: #047700; }
+
+.columnas-precios {
+  background-color: #0b8b07; }
+
+.comunidad-fieldfut {
+  border: #035803 2px solid;
+  background-color: #3d7208;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 15px;
+  width: 300px;
+  height: 450px; }
+
+.formulario-reserva {
+  border: #035803 2px solid;
+  background-color: #3d7208;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 15px;
+  position: absolute;
+  right: 225px;
+  bottom: 50px;
+  width: 300px;
+  height: 450px; }
+
+.intro-forms {
+  position: absolute;
+  right: 150px;
+  bottom: 550px; }
+
+#Name {
+  margin: 0px 50px;
+  width: 200px;
+  height: 30px;
+  background-color: #bbb;
+  border: #111 solid 2px; }
+
+#password {
+  margin: 0px 50px;
+  width: 200px;
+  height: 30px;
+  background-color: #bbb;
+  border: #111 solid 2px; }
+
+#number {
+  margin: 0px 50px;
+  width: 200px;
+  height: 30px;
+  background-color: #bbb;
+  border: #111 solid 2px; }
+
+#Comentarios {
+  margin: 25px 15px;
+  width: 90%;
+  height: 40%;
+  max-width: 90%;
+  min-width: 90%;
+  max-height: 40%;
+  min-height: 40%;
+  background-color: #bbb;
+  border-radius: 10px;
+  border: #111 solid 2px; }
+
+.submit {
+  background-color: greenyellow;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0px 50px;
+  width: 200px;
+  height: 50px; }
+
+.cancha {
+  margin: 25px 15px;
+  font-size: larger; }
+
+.form-input {
+  margin: 20px 0px;
+  width: 200px;
+  height: 30px;
+  background-color: #bbb;
+  border: #111 solid 2px; }
+
+select {
+  height: 28px;
+  border: #111 solid 2px;
+  background-color: #bbb;
+  margin: 20px 0px; }
+
+.submit-form-reserva {
+  background-color: greenyellow;
+  color: black;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 10px 40px;
+  width: 200px;
+  height: 50px; }
+
+.imagenes {
+  border: #000 2px;
+  border-radius: 12px;
+  position: relative;
+  left: 300px; }
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  margin: 20px; }
+
+.card-img {
+  width: 100%;
+  height: auto; }
+
+.card-content {
+  padding: 20px; }
+
+.card-title {
+  font-size: 24px;
+  margin: 0 0 10px; }
+
+.card-text {
+  font-size: 16px;
+  margin: 0 0 20px; }
+
+.card-btn {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer; }
+
+/*Carousel*/
+.carousel-item img {
+  width: 100%;
+  height: auto; }
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%; }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 100%;
+  height: 100%; }
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.carousel-item {
+  background-color: #f8f9fa; }
+
+.carousel-caption h1,
+.carousel-caption p,
+.carousel-caption a {
+  font-size: 2rem;
+  padding: 1rem; }
+
+.carousel-caption a {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem; }
+
+/* Estilos para el banner */
+.banner {
+  background-image: url(https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3rem; }
+
+/* Estilos para las tarjetas */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem; }
+
+.card {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  margin: 1rem;
+  max-width: 400px;
+  overflow: hidden;
+  height: 400px;
+  display: flex;
+  flex-direction: column; }
+
+.card img {
+  width: 100%;
+  height: auto; }
+
+.card-content {
+  padding: 1rem;
+  flex-grow: 1; }
+
+.card-title {
+  font-size: 2rem;
+  margin: 0; }
+
+.card-text {
+  font-size: 1.2rem;
+  margin: 0; }
+
+.card-button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+  margin-top: auto; }
+
+.card-button:hover {
+  background-color: #0062cc;
+  cursor: pointer; }
+
+table {
+  border-collapse: collapse;
+  background-color: #b7c4b7;
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 8px; }
+
+td {
+  border: 2.5px solid black;
+  padding: 10px;
+  text-align: center; }
+
+.intro {
+  text-align: center; }
+
+.canchas-futbol {
+  background-color: #73d473;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 295px;
+  display: inline-block;
+  position: relative;
+  right: 40%;
+  top: 50px; }
+
+.canchas-futbol img {
+  width: 100%;
+  border-radius: 10px; }
+
+a:link {
+  text-decoration: none; }
+
+#tarjetasCanchas {
+  position: absolute;
+  right: 325px;
+  bottom: 145px;
+  padding: 50px; }
+
+#tarjetaTorneos {
+  background-color: #000;
+  opacity: 90%;
+  color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  left: 60%;
+  top: 50px; }
+
+.jugador23 {
+  border-radius: 10px;
+  position: relative;
+  left: 60px; }
+
+ul {
+  list-style-type: none; }
+
+button {
+  background-color: greenyellow;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0px 35px;
+  position: absolute;
+  top: 75%; }
