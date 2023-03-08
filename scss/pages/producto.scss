@@ -36,10 +36,11 @@
   }
 
   /*Carousel*/
-  
+
   .carousel-item img {
-    width: 100%;
+    width: 25%;
     height: auto;
+    border-radius: 8px;
     }
   
     .carousel-control-prev,
@@ -59,7 +60,7 @@
     }
 
     .carousel-item {
-    background-color: #f8f9fa;
+    background-color: black;
     }
    
     .carousel-caption h1,
@@ -67,9 +68,18 @@
     .carousel-caption a {
     font-size: 2rem;
     padding: 1rem;
+    color: white;
     }
     
     .carousel-caption a {
     font-size: 1.5rem;
     padding: 0.5rem 1rem;
+    color: black;
+    }
+    .t-prod{
+        text-align: center;
+        text-decoration: solid;
+        color: black solid;
+        text-shadow: 1px;
+    
     }

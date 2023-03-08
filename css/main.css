@@ -290,8 +290,9 @@ select {
 
 /*Carousel*/
 .carousel-item img {
-  width: 100%;
-  height: auto; }
+  width: 25%;
+  height: auto;
+  border-radius: 8px; }
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -308,21 +309,29 @@ select {
   transform: translateY(-50%); }
 
 .carousel-item {
-  background-color: #f8f9fa; }
+  background-color: black; }
 
 .carousel-caption h1,
 .carousel-caption p,
 .carousel-caption a {
   font-size: 2rem;
-  padding: 1rem; }
+  padding: 1rem;
+  color: white; }
 
 .carousel-caption a {
   font-size: 1.5rem;
-  padding: 0.5rem 1rem; }
+  padding: 0.5rem 1rem;
+  color: black; }
+
+.t-prod {
+  text-align: center;
+  text-decoration: solid;
+  color: black solid;
+  text-shadow: 1px; }
 
 /* Estilos para el banner */
 .banner {
-  background-image: url(https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+  background-image: url(https://images.unsplash.com/photo-1514514757092-71ebbc3db4e6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=895&q=80);
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -391,6 +400,9 @@ table {
 td {
   border: 2.5px solid black;
   padding: 10px;
+  text-align: center; }
+
+.titulo-tabla {
   text-align: center; }
 
 .intro {
