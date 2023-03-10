@@ -11,16 +11,15 @@ body {
   padding-bottom: 60px; }
 
 main {
-  margin-top: 15px;
+  margin-top: 30px;
   font-size: 15px;
-  margin-left: 10px;
   font-weight: bolder; }
 
 footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #c8b6f8;
+  background-color: darkgray;
   width: 100%;
   height: 5em; }
 
@@ -49,7 +48,13 @@ footer .items-footer a:active {
 
 .Copyright {
   font-size: .9em;
-  align-self: end; }
+  align-self: center;
+  color: white; }
+
+footer {
+  margin: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%; }
 
 header .titulo {
   display: inline-block;
@@ -89,6 +94,73 @@ header header {
   background-color: darkgreen;
   opacity: 80%;
   margin: 0px; }
+
+@media screen and (min-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: space-between; }
+  .barra-navegacion {
+    margin-top: 0; }
+  .enlaces-footer {
+    display: flex;
+    justify-content: space-between; }
+  .enlaces-footer li {
+    margin-right: 0; } }
+
+.intro {
+  text-align: center; }
+
+.canchas-futbol {
+  background-color: #73d473;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 295px;
+  display: inline-block;
+  position: relative;
+  right: 40%;
+  top: 50px; }
+
+.canchas-futbol img {
+  width: 100%;
+  border-radius: 10px; }
+
+a:link {
+  text-decoration: none; }
+
+#tarjetasCanchas {
+  position: absolute;
+  right: 325px;
+  bottom: 145px;
+  padding: 50px; }
+
+#tarjetaTorneos {
+  background-color: #000;
+  opacity: 90%;
+  color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+  position: relative;
+  left: 60%;
+  top: 50px; }
+
+.jugador23 {
+  border-radius: 10px;
+  position: relative;
+  left: 60px; }
+
+ul {
+  list-style-type: none; }
+
+.titulo-precios {
+  font-size: x-large;
+  margin-top: 30px;
+  margin-bottom: 0.5rem;
+  color: #000;
+  text-align: center; }
 
 #parrafoTorneos {
   border: 2px solid black;
@@ -257,6 +329,7 @@ select {
   position: relative;
   left: 300px; }
 
+/*Tarjetas*/
 .card {
   background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -280,54 +353,56 @@ select {
   font-size: 16px;
   margin: 0 0 20px; }
 
-.card-btn {
-  background-color: #007bff;
-  border: none;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer; }
-
-/*Carousel*/
-.carousel-item img {
-  width: 25%;
-  height: auto;
-  border-radius: 8px; }
-
-.carousel-control-prev,
-.carousel-control-next {
-  width: 5%; }
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  width: 100%;
-  height: 100%; }
-
-.carousel-caption {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%); }
-
-.carousel-item {
-  background-color: black; }
-
-.carousel-caption h1,
-.carousel-caption p,
-.carousel-caption a {
-  font-size: 2rem;
-  padding: 1rem;
-  color: white; }
-
-.carousel-caption a {
-  font-size: 1.5rem;
-  padding: 0.5rem 1rem;
-  color: black; }
-
 .t-prod {
   text-align: center;
   text-decoration: solid;
   color: black solid;
-  text-shadow: 1px; }
+  text-shadow: 1px;
+  font-size: xx-large; }
+
+/*Carrousel*/
+#myCarousel {
+  width: 80%;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-bottom: 50px;
+  margin-top: 25px; }
+
+.carousel-inner {
+  border-radius: 6px; }
+
+.carousel-item img {
+  max-height: 300px;
+  object-fit: cover; }
+
+:root {
+  --letra-negra: #000000; }
+
+.carousel-caption {
+  color: var(--letra-negra); }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.btn-prods {
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s ease-out;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .btn-prods:hover {
+    background-color: #0062cc; }
 
 /* Estilos para el banner */
 .banner {
@@ -404,62 +479,3 @@ td {
 
 .titulo-tabla {
   text-align: center; }
-
-.intro {
-  text-align: center; }
-
-.canchas-futbol {
-  background-color: #73d473;
-  border: 2px solid black;
-  border-radius: 10px;
-  padding: 10px;
-  width: 200px;
-  height: 295px;
-  display: inline-block;
-  position: relative;
-  right: 40%;
-  top: 50px; }
-
-.canchas-futbol img {
-  width: 100%;
-  border-radius: 10px; }
-
-a:link {
-  text-decoration: none; }
-
-#tarjetasCanchas {
-  position: absolute;
-  right: 325px;
-  bottom: 145px;
-  padding: 50px; }
-
-#tarjetaTorneos {
-  background-color: #000;
-  opacity: 90%;
-  color: white;
-  border: 2px solid black;
-  border-radius: 10px;
-  padding: 10px;
-  display: inline-block;
-  position: relative;
-  left: 60%;
-  top: 50px; }
-
-.jugador23 {
-  border-radius: 10px;
-  position: relative;
-  left: 60px; }
-
-ul {
-  list-style-type: none; }
-
-button {
-  background-color: greenyellow;
-  color: black;
-  padding: 5px;
-  border-radius: 5px;
-  font-size: 20px;
-  font-weight: bolder;
-  margin: 0px 35px;
-  position: absolute;
-  top: 75%; }
