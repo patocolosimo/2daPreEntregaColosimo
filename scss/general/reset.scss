@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image:url(https://media.istockphoto.com/id/163256736/es/foto/prado-rayas.jpg?s=612x612&w=0&k=20&c=b1BoWXO0K_IxAe-IfDOdxJTmcynvfPtwTUP3kTW3iag=);
+    background: radial-gradient(rgb(213, 232, 214), rgb(26, 185, 26));
     background-size: contain; 
     position: relative;
     padding-bottom: 60px;
@@ -14,4 +14,4 @@ main{
     margin-top: 30px;
     font-size: 15px;
     font-weight: bolder;
-}
+} 

@@ -5,7 +5,7 @@
   box-sizing: border-box; }
 
 body {
-  background-image: url(https://media.istockphoto.com/id/163256736/es/foto/prado-rayas.jpg?s=612x612&w=0&k=20&c=b1BoWXO0K_IxAe-IfDOdxJTmcynvfPtwTUP3kTW3iag=);
+  background: radial-gradient(#d5e8d6, #1ab91a);
   background-size: contain;
   position: relative;
   padding-bottom: 60px; }
@@ -19,7 +19,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: darkgray;
+  background-color: #05520d;
   width: 100%;
   height: 5em; }
 
@@ -50,11 +50,6 @@ footer .items-footer a:active {
   font-size: .9em;
   align-self: center;
   color: white; }
-
-footer {
-  margin: 0%;
-  margin-top: 0%;
-  margin-bottom: 0%; }
 
 header .titulo {
   display: inline-block;
@@ -116,11 +111,7 @@ header header {
   border-radius: 10px;
   padding: 10px;
   width: 200px;
-  height: 295px;
-  display: inline-block;
-  position: relative;
-  right: 40%;
-  top: 50px; }
+  height: 295px; }
 
 .canchas-futbol img {
   width: 100%;
@@ -130,9 +121,6 @@ a:link {
   text-decoration: none; }
 
 #tarjetasCanchas {
-  position: absolute;
-  right: 325px;
-  bottom: 145px;
   padding: 50px; }
 
 #tarjetaTorneos {
@@ -141,16 +129,10 @@ a:link {
   color: white;
   border: 2px solid black;
   border-radius: 10px;
-  padding: 10px;
-  display: inline-block;
-  position: relative;
-  left: 60%;
-  top: 50px; }
+  padding: 10px; }
 
 .jugador23 {
-  border-radius: 10px;
-  position: relative;
-  left: 60px; }
+  border-radius: 10px; }
 
 ul {
   list-style-type: none; }
@@ -337,28 +319,22 @@ select {
   overflow: hidden;
   width: 300px;
   margin: 20px; }
-
-.card-img {
-  width: 100%;
-  height: auto; }
-
-.card-content {
-  padding: 20px; }
-
-.card-title {
-  font-size: 24px;
-  margin: 0 0 10px; }
-
-.card-text {
-  font-size: 16px;
-  margin: 0 0 20px; }
+  .card .card-img {
+    width: 100%; }
+  .card .card-content {
+    padding: 20px; }
+    .card .card-content .card-title {
+      font-size: 24px;
+      margin: 0 0 10px; }
+    .card .card-content .card-text {
+      font-size: 16px;
+      margin: 0 0 20px; }
 
 .t-prod {
   text-align: center;
   text-decoration: solid;
-  color: black solid;
-  text-shadow: 1px;
-  font-size: xx-large; }
+  color: white solid;
+  text-shadow: 1px; }
 
 /*Carrousel*/
 #myCarousel {
@@ -369,24 +345,20 @@ select {
   background-color: #fff;
   margin-bottom: 50px;
   margin-top: 25px; }
-
-.carousel-inner {
-  border-radius: 6px; }
-
-.carousel-item img {
-  max-height: 300px;
-  object-fit: cover; }
+  #myCarousel .carousel-control-prev,
+  #myCarousel .carousel-control-next {
+    color: black; }
+  #myCarousel .carousel-inner {
+    border-radius: 6px; }
+    #myCarousel .carousel-inner .carousel-item img {
+      max-height: 300px;
+      object-fit: cover; }
 
 :root {
   --letra-negra: #000000; }
 
 .carousel-caption {
   color: var(--letra-negra); }
-
-.container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
 
 .btn-prods {
   border: none;
@@ -398,9 +370,10 @@ select {
   background-color: #007bff;
   color: #fff;
   transition: background-color 0.3s ease-out;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; }
+  width: 25%;
+  margin-right: 25px;
+  margin-left: 40px;
+  border-radius: 10px; }
   .btn-prods:hover {
     background-color: #0062cc; }
 
@@ -422,48 +395,40 @@ select {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 2rem; }
-
-.card {
-  background-color: white;
-  border-radius: 1rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-  margin: 1rem;
-  max-width: 400px;
-  overflow: hidden;
-  height: 400px;
-  display: flex;
-  flex-direction: column; }
-
-.card img {
-  width: 100%;
-  height: auto; }
-
-.card-content {
-  padding: 1rem;
-  flex-grow: 1; }
-
-.card-title {
-  font-size: 2rem;
-  margin: 0; }
-
-.card-text {
-  font-size: 1.2rem;
-  margin: 0; }
-
-.card-button {
-  background-color: #007bff;
-  border: none;
-  border-radius: 0.5rem;
-  color: white;
-  font-size: 1.2rem;
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  transition: background-color 0.3s ease;
-  margin-top: auto; }
-
-.card-button:hover {
-  background-color: #0062cc;
-  cursor: pointer; }
+  .card-container .card {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    margin: 1rem;
+    max-width: 400px;
+    overflow: hidden;
+    height: 400px;
+    display: flex;
+    flex-direction: column; }
+    .card-container .card img {
+      width: 100%; }
+    .card-container .card .card-content {
+      padding: 1rem;
+      flex-grow: 1; }
+    .card-container .card .card-title {
+      font-size: 2rem;
+      margin: 0; }
+    .card-container .card .card-text {
+      font-size: 1.2rem;
+      margin: 0; }
+    .card-container .card .card-button {
+      background-color: #007bff;
+      border: none;
+      border-radius: 0.5rem;
+      color: white;
+      font-size: 1.2rem;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      transition: background-color 0.3s ease;
+      margin-top: auto; }
+      .card-container .card .card-button:hover {
+        background-color: #0062cc;
+        cursor: pointer; }
 
 table {
   border-collapse: collapse;

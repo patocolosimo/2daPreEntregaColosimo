@@ -1,61 +1,67 @@
 /*Tarjetas*/
 .card {
-    background-color: #fff;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 10px;
-    overflow: hidden;
-    width: 300px;
-    margin: 20px;
-  }
-  
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  margin: 20px;
+
   .card-img {
     width: 100%;
-    height: auto;
   }
-  
+
   .card-content {
     padding: 20px;
+
+    .card-title {
+      font-size: 24px;
+      margin: 0 0 10px;
+    }
+
+    .card-text {
+      font-size: 16px;
+      margin: 0 0 20px;
+    }
   }
-  
-  .card-title {
-    font-size: 24px;
-    margin: 0 0 10px;
-  }
-  
-  .card-text {
-    font-size: 16px;
-    margin: 0 0 20px;
-  }
+}
+
 
   .t-prod{
         text-align: center;
         text-decoration: solid;
-        color: black solid;
+        color: rgb(255, 255, 255) solid;
         text-shadow: 1px;
-        font-size: xx-large;
+        
     
   }
 
 /*Carrousel*/
 
-  #myCarousel {
-    width: 80%;
-    margin: auto;
-    border: 2px solid black;
-    border-radius: 8px;
-    background-color: #fff;
-    margin-bottom: 50px;
-    margin-top: 25px;
+#myCarousel {
+  width: 80%;
+  margin: auto;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-bottom: 50px;
+  margin-top: 25px;
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    color: black;
   }
-  
+
   .carousel-inner {
     border-radius: 6px;
+
+    .carousel-item img {
+      max-height: 300px;
+      object-fit: cover;
+    }
   }
-  
-  .carousel-item img {
-    max-height: 300px;
-    object-fit: cover;
-  }
+}
+
   :root {
     --letra-negra: #000000;
   }
@@ -65,19 +71,13 @@
   .carousel-caption {
     @include letraNegra;
   }
-
-  .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
   .btn-prods {
     @include btn-style;
     @include btn-hover;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    width: 25%;
+    margin-right: 25px ;
+    margin-left: 40px;
+    border-radius: 10px;
   }
     
   
