@@ -37,28 +37,40 @@
 
   <body>
     <header>
-      <h1 class="titulo">FieldFut</h1>
-      <i class="fa-solid fa-futbol"></i>
-      <nav class="barra-navegacion">
-        <ul class="menu-nav">
-          <li>
-            <a href="../index.html" class="fa-solid fa-futbol"> Inicio </a>
-          </li>
-          <li>
-            <a href="./multimedia.html" class="fa-solid fa-camera"> Galería</a>
-          </li>
-          <li>
-            <a href="./formulario.html" class="fa-sharp fa-solid fa-users">
-              Ser Parte</a
-            >
-          </li>
-          <li>
-            <a href="./torneo.html" class="fa-solid fa-trophy"> Torneos</a>
-          </li>
-          <li>
-            <a href="./productos.html" class="fa-solid fa-shirt"> Productos</a>
-          </li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <h1 class="navbar-brand titulo">FieldFut <i class="fa-solid fa-futbol"></i></h1> 
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar"
+            aria-controls="navbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="multimedia.html">Galería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="formulario.html">Ser Parte</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="torneo.html">Torneos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">Productos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
     <main class="container">
@@ -325,7 +337,7 @@
       </div>
     </main>
     <footer>
-      <p>¡Contactanos!</p>
+      <p class="text-center">¡Contactanos!</p>
       <div class="items-footer">
         <a
           href="instagram.com/"

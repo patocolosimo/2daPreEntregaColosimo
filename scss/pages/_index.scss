@@ -30,6 +30,8 @@ a:link{
     
 }
 .jugador23{
+    border: 1px;
+    border-color: black;
     border-radius: 10px;
    
 }
@@ -37,4 +39,15 @@ a:link{
 ul{
     list-style-type: none;
 }
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+  }
+  
+  .nav-link {
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
 

@@ -25,46 +25,59 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
+      crossorigin="anonymous" 
+      />
+    <link
+       rel="stylesheet" 
+       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" 
+       integrity="sha512-2X0jKahxGxhFL7xcpY+Z8eOlvOQ2QH0JAZtKsCtLsWNY4lBr4l4zZmG/aJkrCfy+owIlrPYYo6bPIvVG8X7J1Q==" 
+       crossorigin="anonymous" 
+       referrerpolicy="no-referrer" 
+       />
+  
     <link rel="stylesheet" href="./css/main.css" />
     <title>Inicio - FieldFut</title>
   </head>
 
   <body>
     <header>
-      <h1 class="titulo">FieldFut</h1>
-      <i class="fa-solid fa-futbol"></i>
-      <nav class="barra-navegacion">
-        <ul>
-          <li>
-            <a href="./index.html" class="fa-solid fa-futbol"> Inicio </a>
-          </li>
-          <li>
-            <a href="./pages/multimedia.html" class="fa-solid fa-camera">
-              Galería</a
-            >
-          </li>
-          <li>
-            <a
-              href="./pages/formulario.html"
-              class="fa-sharp fa-solid fa-users"
-            >
-              Ser Parte</a
-            >
-          </li>
-          <li>
-            <a href="./pages/torneo.html" class="fa-solid fa-trophy">
-              Torneos</a
-            >
-          </li>
-          <li>
-            <a href="./pages/productos.html" class="fa-solid fa-shirt">
-              Productos</a
-            >
-          </li>
-        </ul>
-      </nav>
+      
+      
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <h1 class="navbar-brand titulo">FieldFut <i class="fa-solid fa-futbol"></i></h1> 
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar"
+            aria-controls="navbar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/multimedia.html">Galería</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/formulario.html">Ser Parte</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/torneo.html">Torneos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/productos.html">Productos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>      
     </header>
     <main>
       <section class="py-5 text-center container">
@@ -88,7 +101,7 @@
 
       <div class="album py-5">
         <div class="container">
-          <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+          <div class="p-4 p-md-5 mb-4 rounded text-bg-dark text-center">
             <h3>Torneos</h3>
             <p>Inscribite y juga nuestros torneos de todas las categorías!</p>
             <ul>
@@ -165,7 +178,7 @@
       </div>
     </main>
     <footer>
-      <p>¡Contactanos!</p>
+      <p class="text-center">¡Contactanos!</p>
       <div class="items-footer">
         <a
           href="instagram.com/"
@@ -193,6 +206,12 @@
     <script
       src="https://kit.fontawesome.com/73f026269c.js"
       crossorigin="anonymous"
+    ></script>
+    <script 
+    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js" 
+    integrity="sha512-0oAF+Hl8SGh2L1ztLgJw2M1q/Q+3ZZzhJgCfUatv6U5C+8krxJ0L7VfDZwLGfxZnNjN/YgMI+Tp/q1yL/1z81Q==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer"
     ></script>
   </body>
 </html>

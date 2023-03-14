@@ -17,7 +17,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #05520d;
+  background-color: #38bf46;
   width: 100%;
   height: 5em; }
 
@@ -130,10 +130,21 @@ a:link {
   padding: 10px; }
 
 .jugador23 {
+  border: 1px;
+  border-color: black;
   border-radius: 10px; }
 
 ul {
   list-style-type: none; }
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-right: 2rem; }
+
+.nav-link {
+  font-weight: bold;
+  font-size: 1.2rem; }
 
 .titulo-precios {
   font-size: x-large;
@@ -353,19 +364,14 @@ select {
 
 .btn-prods {
   border: none;
-  padding: 10px 20px;
+  padding: 12px;
   font-size: 16px;
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
   background-color: #007bff;
   color: #fff;
-  transition: background-color 0.3s ease-out;
-  width: 25%;
-  margin-right: 25px;
-  margin-left: 40px;
-  border-radius: 10px;
-  margin-bottom: 60px; }
+  transition: background-color 0.3s ease-out; }
   .btn-prods:hover {
     background-color: #0062cc; }
 
