@@ -17,7 +17,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #38bf46;
+  background-color: #31a43c;
   width: 100%;
   height: 5em; }
 
@@ -99,6 +99,42 @@ header header {
     justify-content: space-between; }
   .enlaces-footer li {
     margin-right: 0; } }
+
+.btn-float {
+  display: inline-block;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  padding: 12px 24px;
+  text-decoration: none;
+  z-index: 999;
+  transition: all 0.3s ease; }
+  .btn-float:hover {
+    background-color: #0062cc;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); }
+  .btn-float:active {
+    transform: translateY(2px);
+    box-shadow: none; }
+
+.btn-round {
+  display: inline-block;
+  right: 20px;
+  padding: 12px 24px;
+  background-color: #5c655c;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  cursor: pointer; }
+  .btn-round:hover {
+    background-color: #454a45;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); }
 
 .intro {
   text-align: center; }
