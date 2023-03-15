@@ -1,7 +1,7 @@
 /*Tarjetas*/
 .card {
   background-color: #fff;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   overflow: hidden;
   width: 300px;
@@ -26,14 +26,12 @@
   }
 }
 
-.t-prod{
-        text-align: center;
-        text-decoration: solid;
-        color: rgb(255, 255, 255) solid;
-        text-shadow: 1px;
-        
-    
-  }
+.t-prod {
+  text-align: center;
+  text-decoration: solid;
+  color: rgb(255, 255, 255) solid;
+  text-shadow: 1px;
+}
 
 /*Carrousel*/
 
@@ -61,22 +59,16 @@
   }
 }
 
-  :root {
-    --letra-negra: #000000;
-  }
-  @mixin letraNegra {
-    color: var(--letra-negra);
-  }
-  .carousel-caption {
-    @include letraNegra;
-  }
-  .btn-prods {
-    @include btn-style;
-    @include btn-hover;
-  }
-    
-  
-
-
-  
-  
+:root {
+  --letra-negra: #000000;
+}
+@mixin letraNegra {
+  color: var(--letra-negra);
+}
+.carousel-caption {
+  @include letraNegra;
+}
+.btn-prods {
+  @include btn-style;
+  @include btn-hover;
+}

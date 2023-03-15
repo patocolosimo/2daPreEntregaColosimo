@@ -1,179 +1,176 @@
-.titulo-precios{
-    font-size: x-large;
-    margin-top: 30px;
-    margin-bottom: 0.5rem;
-    color: #000;
-    text-align: center;
+.titulo-precios {
+  font-size: x-large;
+  margin-top: 30px;
+  margin-bottom: 0.5rem;
+  color: #000;
+  text-align: center;
 }
 
-#parrafoTorneos{
-    border: 2px solid black;
-    border-radius: 10px;
-    color: #eee;
-    background-color: black;
-    opacity: 50%;
-    padding: 1%;
+#parrafoTorneos {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: #eee;
+  background-color: black;
+  opacity: 50%;
+  padding: 1%;
 }
-#premiosTorneo{
-    border: 5px;
-    border-radius: 8px;
-    color: #000;
-    background-color: yellow;
-    padding: 1%;
-    opacity: 50%;
-    margin-top: 10px;
+#premiosTorneo {
+  border: 5px;
+  border-radius: 8px;
+  color: #000;
+  background-color: yellow;
+  padding: 1%;
+  opacity: 50%;
+  margin-top: 10px;
 }
-.titulo-torneos{
-    font-size: 35px;
-    font-weight: bold;
-    text-shadow: 1px 1px 2px;
+.titulo-torneos {
+  font-size: 35px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px;
 }
-.tabla-f5{
-border: 2px solid black;
-color: #000;
-background-color: rgb(26, 95, 6);
-opacity: 90%;
-border-radius: 3px;
-font-weight: bolder;
-text-align: center;
+.tabla-f5 {
+  border: 2px solid black;
+  color: #000;
+  background-color: rgb(26, 95, 6);
+  opacity: 90%;
+  border-radius: 3px;
+  font-weight: bolder;
+  text-align: center;
 }
-.tabla-f8{
-    border: 2px solid black;
-    color: #000;
-    background-color: rgb(26, 95, 6);
-    opacity: 90%;
-    border-radius: 3px;
-    font-weight: bolder;
-    text-align: center;
-    }
-.titulo-canchas-f5{
-        border-radius: 8px;
-        font-size: x-large;
-        font-weight: bolder;
+.tabla-f8 {
+  border: 2px solid black;
+  color: #000;
+  background-color: rgb(26, 95, 6);
+  opacity: 90%;
+  border-radius: 3px;
+  font-weight: bolder;
+  text-align: center;
 }
-.titulo-canchas-f8{
-        border-radius: 8px;
-        font-size: x-large;
-        font-weight: bolder;
+.titulo-canchas-f5 {
+  border-radius: 8px;
+  font-size: x-large;
+  font-weight: bolder;
 }
-
-.canchas-f5{ 
-    box-sizing: border-box;
-    margin: 15px;
+.titulo-canchas-f8 {
+  border-radius: 8px;
+  font-size: x-large;
+  font-weight: bolder;
 }
 
-.canchas-f8{
-    box-sizing: border-box;
-    margin: 15px;
-    
+.canchas-f5 {
+  box-sizing: border-box;
+  margin: 15px;
 }
 
-.horizontal-precios{
-    background-color: rgb(4, 119, 0);
-}
-.columnas-precios{
-    background-color: rgb(11, 139, 7);
-}
-.comunidad-fieldfut{
-    border: rgb(3, 88, 3) 2px solid;
-    background-color: #3d7208;
-    border-radius: 8px;
-    display: inline-block;
-    padding: 15px;
-    width: 300px;
-    height: 450px;
-}
-.formulario-reserva{
-    border: rgb(3, 88, 3) 2px solid;
-    background-color: #3d7208;
-    border-radius: 8px;
-    display: inline-block;
-    padding: 15px;
-   
-}
-.intro-forms{
-    position: absolute;
-    right: 150px;
-    bottom: 550px;
+.canchas-f8 {
+  box-sizing: border-box;
+  margin: 15px;
 }
 
-
-#Name{
-    margin: 0px 50px;
-    width: 200px;
-    height: 30px;
-    background-color: #bbb;
-    border: #111 solid 2px;
+.horizontal-precios {
+  background-color: rgb(4, 119, 0);
+}
+.columnas-precios {
+  background-color: rgb(11, 139, 7);
+}
+.comunidad-fieldfut {
+  border: rgb(3, 88, 3) 2px solid;
+  background-color: #3d7208;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 15px;
+  width: 300px;
+  height: 450px;
+}
+.formulario-reserva {
+  border: rgb(3, 88, 3) 2px solid;
+  background-color: #3d7208;
+  border-radius: 8px;
+  display: inline-block;
+  padding: 15px;
+}
+.intro-forms {
+  position: absolute;
+  right: 150px;
+  bottom: 550px;
 }
 
-#password{
-    margin: 0px 50px;
-    width: 200px;
-    height: 30px;
-    background-color: #bbb;
-    border: #111 solid 2px;
+#Name {
+  margin: 0px 50px;
+  width: 200px;
+  height: 30px;
+  background-color: #bbb;
+  border: #111 solid 2px;
 }
 
-#number{
-    margin: 0px 50px;
-    width: 200px;
-    height: 30px;
-    background-color: #bbb;
-    border: #111 solid 2px;
+#password {
+  margin: 0px 50px;
+  width: 200px;
+  height: 30px;
+  background-color: #bbb;
+  border: #111 solid 2px;
 }
 
-#Comentarios{
-    margin: 25px 15px;
-    width: 90%;
-    height: 40%;
-    max-width: 90%;
-    min-width: 90%;
-    max-height: 40%;
-    min-height: 40%;
-    background-color: #bbb;
-    border-radius: 10px;
-    border: #111 solid 2px;
+#number {
+  margin: 0px 50px;
+  width: 200px;
+  height: 30px;
+  background-color: #bbb;
+  border: #111 solid 2px;
 }
 
-.submit{
-    background-color: greenyellow;
-    color: black;
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: bolder;
-    margin: 0px 50px;
-    width: 200px;
-    height: 50px;
+#Comentarios {
+  margin: 25px 15px;
+  width: 90%;
+  height: 40%;
+  max-width: 90%;
+  min-width: 90%;
+  max-height: 40%;
+  min-height: 40%;
+  background-color: #bbb;
+  border-radius: 10px;
+  border: #111 solid 2px;
 }
 
-.cancha{
-    margin: 25px 15px;
-    font-size:larger ;
+.submit {
+  background-color: greenyellow;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0px 50px;
+  width: 200px;
+  height: 50px;
 }
 
-.form-input{
-    margin: 20px 0px;
-    width: 200px;
-    height: 30px;
-    background-color: #bbb;
-    border: #111 solid 2px;
+.cancha {
+  margin: 25px 15px;
+  font-size: larger;
 }
 
-select{
-    height: 28px;
-    border: #111 solid 2px;
-    background-color: #bbb;
-    margin: 20px 0px;
+.form-input {
+  margin: 20px 0px;
+  width: 200px;
+  height: 30px;
+  background-color: #bbb;
+  border: #111 solid 2px;
 }
 
-.submit-form-reserva{
-    background-color: greenyellow;
-    color: black;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: bolder;
-    margin: 10px 40px;
-    width: 200px;
-    height: 50px;
+select {
+  height: 28px;
+  border: #111 solid 2px;
+  background-color: #bbb;
+  margin: 20px 0px;
+}
+
+.submit-form-reserva {
+  background-color: greenyellow;
+  color: black;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 10px 40px;
+  width: 200px;
+  height: 50px;
 }
