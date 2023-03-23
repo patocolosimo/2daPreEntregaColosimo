@@ -136,6 +136,48 @@ header header {
     background-color: #454a45;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); }
 
+.card-button {
+  background-color: #007bff;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+  margin-top: auto; }
+  .card-button:hover {
+    background-color: #0062cc;
+    cursor: pointer; }
+
+.card2 {
+  margin-bottom: 30px; }
+  .card2 img.card-img-top {
+    transition: transform 0.5s ease; }
+    .card2 img.card-img-top:hover {
+      transform: scale(1.2); }
+  .card2 .card-body {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white; }
+
+.row.align-items-center {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; }
+
+.card3 {
+  margin-top: 50px;
+  margin-bottom: 45px;
+  transition: transform 0.5s ease-in-out; }
+  .card3:hover {
+    transform: rotateY(360deg); }
+
+.card4 {
+  transition: transform 0.5s ease-in-out;
+  margin-bottom: 50px; }
+  .card4:hover {
+    transform: scale(1.1); }
+
 .intro {
   text-align: center; }
 
@@ -349,42 +391,6 @@ select {
   border: #000 2px;
   border-radius: 12px; }
 
-.card img {
-  width: 100%;
-  height: 100%;
-  transition: transform 0.5s; }
-
-.card:hover img {
-  transform: scale(1.1); }
-
-.card-body {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff; }
-
-/*Tarjetas*/
-.card {
-  background-color: #fff;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-  overflow: hidden;
-  width: 300px;
-  margin: 20px; }
-  .card .card-img {
-    width: 100%; }
-  .card .card-content {
-    padding: 20px; }
-    .card .card-content .card-title {
-      font-size: 24px;
-      margin: 0 0 10px; }
-    .card .card-content .card-text {
-      font-size: 16px;
-      margin: 0 0 20px; }
-
 .t-prod {
   text-align: center;
   text-decoration: solid;
@@ -408,6 +414,8 @@ select {
     #myCarousel .carousel-inner .carousel-item img {
       max-height: 300px;
       object-fit: cover; }
+  #myCarousel .carousel-control-prev-icon, #myCarousel .carousel-control-next-icon {
+    display: inline-block; }
 
 :root {
   --letra-negra: #000000; }
@@ -439,47 +447,6 @@ select {
   align-items: center;
   color: white;
   font-size: 3rem; }
-
-/* Estilos para las tarjetas */
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 2rem; }
-  .card-container .card {
-    background-color: white;
-    border-radius: 1rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
-    margin: 1rem;
-    max-width: 400px;
-    overflow: hidden;
-    height: 400px;
-    display: flex;
-    flex-direction: column; }
-    .card-container .card img {
-      width: 100%; }
-    .card-container .card .card-content {
-      padding: 1rem;
-      flex-grow: 1; }
-    .card-container .card .card-title {
-      font-size: 2rem;
-      margin: 0; }
-    .card-container .card .card-text {
-      font-size: 1.2rem;
-      margin: 0; }
-    .card-container .card .card-button {
-      background-color: #007bff;
-      border: none;
-      border-radius: 0.5rem;
-      color: white;
-      font-size: 1.2rem;
-      margin-top: 1rem;
-      padding: 0.5rem 1rem;
-      transition: background-color 0.3s ease;
-      margin-top: auto; }
-      .card-container .card .card-button:hover {
-        background-color: #0062cc;
-        cursor: pointer; }
 
 table {
   border-collapse: collapse;

@@ -1,18 +1,18 @@
 //General
 
-@import "./general/reset.scss";
+@import "./general/_reset.scss";
 
 //Layout
 
-@import "./layout/footer.scss";
-@import "./layout/header.scss";
-@import "./layout/media.scss";
-@import "./layout/botones.scss";
-
+@import "./layout/_footer.scss";
+@import "./layout/_header.scss";
+@import "./layout/_media.scss";
+@import "./layout/_botones.scss";
+@import "./layout/_cards.scss";
 //Pages
 
-@import "./pages/index.scss";
-@import "./pages/formulario.scss";
-@import "./pages/multimedia.scss";
-@import "./pages/producto.scss";
-@import "./pages/torneo.scss";
+@import "./pages/_index.scss";
+@import "./pages/_formulario.scss";
+@import "./pages/_multimedia.scss";
+@import "./pages/_producto.scss";
+@import "./pages/_torneo.scss";
